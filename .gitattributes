@@ -3,3 +3,7 @@
 
 # Do not modify line endings in any files
 * -text
+
+# Ignore git config files in exports
+.gitattributes export-ignore
+.gitignore export-ignore
