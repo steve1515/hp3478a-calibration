@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Settings>
+  
+  <!--Serial Port Settings-->
+  <SerialPort>
+    <PortName>COM5</PortName>
+    <BaudRate>460800</BaudRate>
+    <DataBits>8</DataBits>
+    <Parity>None</Parity> <!--Parity = None, Odd, Even, Mark, Space-->
+    <StopBits>One</StopBits> <!--StopBits = One, OnePointFive, Two-->
+    <FlowControl>None</FlowControl> <!--FlowControl = None, RequestToSend, RequestToSendXOnXOff, XOnXOff-->
+  </SerialPort>
+  
+  <!--GPIB Adapter Settings-->
+  <GPIBAdapter>
+    <Timeout>1000</Timeout> <!--Serial/GPIB Timeout (mSec)-->
+    <VersionString>GPIB</VersionString> <!--Command '++ver' return value must contain this string.-->
+  </GPIBAdapter>
+  
+</Settings>

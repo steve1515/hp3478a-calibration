@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+#* text=auto
+
+# Do not modify line endings in any files
+* -text
