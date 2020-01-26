@@ -200,7 +200,7 @@ namespace HP3478ACalibration
             for (int i = 6, j = 100; i < 11; i++, j *= 10)
             {
                 int gainNibble = entryData[i] & 0x0f;
-                if (gainNibble > 8)
+                if (gainNibble >= 8)
                     gainNibble -= 16;
 
                 gainValue += (float)gainNibble / j;
